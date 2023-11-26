@@ -17,8 +17,10 @@ greetCustomer(pizzaToppings);
 // has the parameters size, crust, and an indefinite amount of toppings as inputs
 // prints the order, i.e. "One large thick crust pizza with x, y, z, ... coming up!"
 // outputs a list with the size, crust, and toppings
-let psize=prompt("please select from the following sizes: small, medium or large");
-let pcrust=prompt("please select a crust: regular, thin or stuffed");
+let psize = "small"
+//prompt("please select from the following sizes: small, medium or large");
+let pcrust = "thin"
+//prompt("please select a crust: regular, thin or stuffed");
 let unbaked = [];
 function getPizzaOrder(size, crust, ...toppings){
 console.log(`one ${size} pizza with ${crust} crust topped with ${toppings} coming right up`);
@@ -27,7 +29,7 @@ return unbaked;
 }
 
 getPizzaOrder(psize, pcrust, pizzaToppings);
-console.log(unbaked);
+//console.log(unbaked);
 // Create a preparePizza function that
 // has an array as its parameter with three items: a size, a crust, and a list of toppings
 // prints something like "...Cooking pizza..."
