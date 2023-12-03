@@ -1,0 +1,55 @@
+html {
+  background-image: linear-gradient(yellow, pink);
+}
+
+footer {
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 60px;
+  color: red;
+  }
+
+main > div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: thick solid red;
+  border-radius: 25px;
+  background-image: radial-gradient(lightyellow, lightgreen);
+  align-items: center;
+  font-size: 40px;
+  color: purple;
+}
+
+main {
+  display:grid;
+  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 50px;
+  padding: 50px;
+  height: 80vh;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-image: radial-gradient(yellow, lime) ;
+    padding-right: 25px;
+    color: red;
+  }
+
+  .navText{
+  display:block;
+  margin: 0 auto;
+  font-weight: bolder;
+  padding: 50px;
+  font-size: 60px;
+  color: red;
+
+
+
+
