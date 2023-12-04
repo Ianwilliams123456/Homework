@@ -12,6 +12,17 @@ footer {
   color: red;
   }
 
+  #primus {
+    font-weight: lighter;
+  }
+
+  #fnm {
+    font-weight: lighter;
+  }
+
+  #fishbone {
+    font-weight: lighter;
+  }
 main > div {
   display: flex;
   text-align: center;
