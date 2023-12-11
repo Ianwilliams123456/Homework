@@ -1,0 +1,79 @@
+html {
+    background-color: antiquewhite;
+  }
+
+  body {
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+
+  div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  #top {
+    display: inline-flex;
+    align-items: center;
+  }
+  #introPic {
+
+      max-width: 50%;
+      max-height: 50%;
+    }
+  #earlyCareer {
+    align-items: center;
+  }
+  #earlyCareer > img {
+        max-width: 500px;
+      }
+
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+
+  #pro {
+    width: auto;
+  }
+
+  #achievements{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #acting {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+
+@media (max-width:375px) and (max-height:667px){
+
+body {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+#earlyCareer > img {
+  max-width: 50%;
+  max-height: 50%;
+}
+}
